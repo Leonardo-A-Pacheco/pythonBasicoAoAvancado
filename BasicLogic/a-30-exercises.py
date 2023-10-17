@@ -108,19 +108,10 @@ if len(nome) < 4:
     tamanho = 'small'
 elif 4 < len(nome) <= 6:
     tamanho = 'normal'
-elif len(nome) > 6:
+else:
     tamanho = 'big' 
 
 print(f'your name is: {tamanho} ')
-
-
-
-
-
-
-
-
-
 
 
 ## ESCREVENDO EM COLUNA
