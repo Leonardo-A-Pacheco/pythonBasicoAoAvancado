@@ -2,7 +2,7 @@ while True:
 
     n1 = input('Digite o n1: ')
     op = input(f'Digite o operador: ')
-    n2 = input('Digite o n2: ')
+    n2 = input(f'Digite o n2: ')
     ok = None
     n1_float = 0 
     n2_float = 0
