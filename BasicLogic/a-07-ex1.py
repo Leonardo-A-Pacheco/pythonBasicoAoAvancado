@@ -5,7 +5,7 @@ ano_atual = datetime.datetime.now().year
 
 # print(ano_atual)
 
-nome = input("digite o nome ")
+nome = input(f"digite o nome ")
 sobrenome = input("digite o sobrenome ")
 anonascimento = input("digite o anonascimento ")
 idade = ano_atual - int(anonascimento)

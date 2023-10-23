@@ -14,7 +14,7 @@ if condicao:
     passou_no_if = True #variavel local if
     print('Faça algo')
 else:
-    print('Não faça algo')
+    print(f'Não faça algo')
 
 
 if passou_no_if is None:

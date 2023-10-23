@@ -4,7 +4,7 @@
 
 #quando quero que pegue o proximo caracter especial ex:
 
-print("banana é uma caracter")
+print(f"banana é uma caracter")
 
 print("banana é uma \"caracter\"")
 

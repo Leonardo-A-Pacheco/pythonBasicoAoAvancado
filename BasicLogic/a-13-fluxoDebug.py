@@ -12,7 +12,7 @@ condition1 = True
 if condition1:
     print('executa if caso true')
 elif not condition1:
-    print('executa elif caso false')
+    print(f'executa elif caso false')
 elif condition1:
     ...
 elif condition1:

@@ -1,7 +1,7 @@
 print("exemplo de comentario")
 #comentario
 
-print("exemplo de DocString")
+print(f"exemplo de DocString ")
 '''
 docstring ou -> """  """
 '''

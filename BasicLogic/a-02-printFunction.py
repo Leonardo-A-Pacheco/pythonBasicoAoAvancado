@@ -1,6 +1,6 @@
 print("argumento do print")
 
-print("string")
+print(f"string")
 
 print(123)
 

@@ -32,7 +32,7 @@ if nome and idade:
     if esp:
         print(f'seu nome tem {esp} espaços')
     else:
-        print('seu nome não contem espaços')
+        print(f'seu nome não contem espaços')
 
     print(f' seu nome {nome} tem {len(nome)} letras')
     print(f'a primeira letra do seu nome é: {nome[0]}')

@@ -6,7 +6,7 @@ while contador < 10:
     contador += 1
     
     if contador == 6:
-        print('condição continue')
+        print(f'condição continue')
         continue
     
     print(contador)

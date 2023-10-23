@@ -12,7 +12,7 @@ print(name,ano_string)
 #evitar ficar executando typeCasting
 
 print(
-    "\n\nnome:", name, 
+    f"\n\nnome:", name, 
     "\nano", ano, 
     "\naltura", altura)
  

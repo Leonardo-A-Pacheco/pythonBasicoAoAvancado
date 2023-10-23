@@ -6,7 +6,7 @@ print(f'algo é {algo}')
 
 # os dados devem ser tratados com typeCasting ex
 
-n1 = input('digite n1 ')
+n1 = input(f'digite n1 ')
 n2 = input('digite n2 ')
 
 #concatenação de duas str

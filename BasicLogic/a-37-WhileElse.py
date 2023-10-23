@@ -11,8 +11,8 @@ while i < len(string):
     print(letra)
     i += 1
 else:
-    print('Não encontrei um espaço na string.')
-print('Fora do while.')
+    print(f'Não encontrei um espaço na string. ')
+print(f'Fora do while.  ')
 
 #se houver um break antes o else nao é executado
 #se não houver ele é sempre executado!
