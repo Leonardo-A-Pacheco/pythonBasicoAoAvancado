@@ -21,3 +21,60 @@
 #     resultado é o valor da conta
 
 # O primeiro dígito do CPF é 7
+
+cpf = '746.824.890-70'
+
+scpf = cpf.replace('.','')
+scpf = scpf.replace('-','')
+
+# print(scpf)
+
+cpf_9 = []
+
+for n in range((len(scpf)-2)):
+    
+    cpf_9.append(int(scpf[n]))
+ 
+# print(cpf_9,type(cpf_9))
+
+# for i in range (len(cpf_9)):
+#     print(type(cpf_9[i]))
+
+cpfx = []
+j = 10
+
+for i in range (len(cpf_9)):
+    cpfx.append(cpf_9[i] * j)
+    j -= 1
+
+soma = 0
+
+for i in range(len(cpfx)):
+    soma += cpfx[i]
+
+# print(cpfx)
+soma = soma *10  
+# print(soma)
+
+result_n1 = soma % 11
+
+result_n1 = result_n1 if result_n1 <= 9 else 0
+
+# print(result_n1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
