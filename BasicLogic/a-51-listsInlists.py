@@ -21,7 +21,7 @@ salas = [
 for sala in salas:
     print(f'a sala é {sala}')
     for aluno in sala:
-        print(f'{aluno}')
+        print(f' {aluno}')
 
 
 
