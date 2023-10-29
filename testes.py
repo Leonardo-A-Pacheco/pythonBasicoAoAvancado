@@ -9,7 +9,7 @@ qd = cria_fx(4)
 
 valor = 5  # Substitua pelo valor que deseja multiplicar
 
-print(f'Duplicado: {dp(valor)}\nTriplicado: {tp(valor)}\nQuadruplicado: {qd(valor)}')
+print(f' Duplicado: {dp(valor)}\n Triplicado: {tp(valor)}\n Quadruplicado: {qd(valor)}')
 
 
 # # Inicialização da flag
