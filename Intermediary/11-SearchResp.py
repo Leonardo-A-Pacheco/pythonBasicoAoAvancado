@@ -1,18 +1,17 @@
-#sistema de perguntas e respostas
-
+import os
 perguntas = [
     {
         'pergunta': 'How are you from?',
         'opcoes': ['a) como é o seu nome?', 'b) que horas são agora?', 'c) Poneis são azuis?', 'd) De onde você é?', 'e) Isso é uma bicicleta?'],
         'resposta': 'd) De onde você é?',
     },
-      {
+    {
         'pergunta': 'What is your name?',
-        'opcoes': ['a) Como você está?', 'b) Qual é o seu nome?', 'c) O que você está fazendo?', 'd) Quanto isso custa?'],
+        'opcoes': ['a) Como você está?', 'b) Qual é o seu nome?', 'c) O que você está fazendo?', 'd) Quanto isso custa?', 'e7) que horas são agora?'],
         'resposta': 'b) Qual é o seu nome?'
     },
     {
-        'pergunta': 'How old are you?',
+         'pergunta': 'How old are you?',
         'opcoes': ['a) O que você quer?', 'b) Quantos anos você tem?', 'c) Você gosta de música?', 'd) Onde você mora?'],
         'resposta': 'b) Quantos anos você tem?'
     },
@@ -77,48 +76,25 @@ perguntas = [
         'resposta': 'a) Quem é o seu melhor amigo?'
     },
     {
-    'pergunta': 'When is your birthday?',
-    'opcoes': ['a) Quando é o seu aniversário?', 'b) O que você faz nas suas férias?', 'c) Você tem um animal de estimação?', 'd) Qual é o seu programa de TV favorito?'],
-    'resposta': 'a) Quando é o seu aniversário?',
-},
+        'pergunta': 'When is your birthday?',
+        'opcoes': ['a) Quando é o seu aniversário?', 'b) O que você faz nas suas férias?', 'c) Você tem um animal de estimação?', 'd) Qual é o seu programa de TV favorito?'],
+    }
+
 ]
-
-qtd_acertos = 0
-
-for pergunta in perguntas:
-    print('Pergunta:', pergunta['pergunta'])
+# acessando primeiramente a lista que contem os dicionarios question
+for question in perguntas:
+    print(question['pergunta'])
     print()
-
-    opcoes = pergunta['opcoes']
-
-    for i, opcao in enumerate(opcoes):
-        print(f'{i}) {opcao}')
-
+# rodando loop para exbir as questões
+    for op in question['opcoes']:
+        print(op)
     print()
+# rebebendo a resposta
+    r = input('Qual letra da resposta correta? ')
+# verificando certo ou errado
 
-    escolha = input('Escolha uma opção: ')
-
-    acertou = False
-    escolha_int = None
-    qtd_opcoes = len(opcoes)
-
-    if escolha.isdigit():
-        escolha_int = int(escolha)
-
-    if escolha_int is not None:
-        if escolha_int >= 0 and escolha_int < qtd_opcoes:
-            if opcoes[escolha_int] == pergunta['resposta']:
-                acertou = True
-
-    print()
-
-    if acertou:
-        qtd_acertos += 1
-        print('Acertou 👍')
+    if r == question['resposta'][0]:
+        print('acertou')
     else:
-        print('Errou ❌')
-
-    print()
-
-print('Você acertou', qtd_acertos)
-print('de', len(perguntas), 'perguntas.')
+        print('errou')    
+    print('---------------------')
