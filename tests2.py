@@ -1,12 +1,33 @@
-produtos = [
-    {'nome': 'Produto 5', 'preco': 10.00, 'categoria': 1},
+# def apresentacao(**kwargs):
+#     for chave, valor in kwargs.items():
+#         print(f'{chave}: {valor}')
+
+# info = {'nome': 'Alice', 'idade': 30, 'cidade': 'Nova York'}
+# apresentacao(**info)  # Passa o dicionário como argumentos de palavra-chave
+
+
+
+# def soma(*args):
+#     resultado = 0
+#     for num in args:
+#         resultado += num
+#     return resultado
+
+# nums = (1, 2, 3, 4, 5)
+# resultado = soma(*nums)  # Desempacota a tupla em argumentos
+
+# print(resultado)
+
+
+# produtos = [
+#     {'nome': 'Produto 5', 'preco': 10.00, 'categoria': 1},
     # {'nome': 'Produto 1', 'preco': 22.32, 'categoria': 2},
     # {'nome': 'Produto 3', 'preco': 10.11 , 'categoria': 3},
     # {'nome': 'Produto 2', 'preco': 105.87, 'categoria': 4},
     # {'nome': 'Produto 4', 'preco': 69.90}, 'categoria': 5},
-]
+# ]
 
-print(produtos)
+# print(produtos)
 
 
 
