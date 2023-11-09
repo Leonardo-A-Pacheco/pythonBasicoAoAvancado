@@ -1,11 +1,18 @@
 
-def menor(*args):
-    print(min(len(lista) for lista in args))
 
-c = ['Salvador', 'Ubatuba', 'Belo Horizonte']
-e = ['BA', 'SP', 'MG', 'RJ']
+a = ['banana']
+b = ['i']
+a += join(b)
 
-menor(c, e)  # Passa as listas c e e como argumentos
+print(a)
+
+# def menor(*args):
+#     print(min(len(lista) for lista in args))
+
+# c = ['Salvador', 'Ubatuba', 'Belo Horizonte']
+# e = ['BA', 'SP', 'MG', 'RJ']
+
+# menor(c, e)  # Passa as listas c e e como argumentos
 
 
 
