@@ -121,11 +121,11 @@ def game_forca():
     fail = 0
     
     print('JOGO DA FORCA')
-    while not todas_letras_adivinhadas(palavra, certas) and fail < 7:
+    while not todas_letras_adivinhadas(palavra, certas) and fail < 8:
             estado(fail)
 
             print('Adivinhe a palavra abaixo:')
-            print(palavra)
+            print(palavra) #para conferencia de produção
             for _ in range(len(palavra)):
                 print(f'( _ )',end='')
             print()
