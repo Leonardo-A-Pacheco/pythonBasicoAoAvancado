@@ -13,6 +13,6 @@ c = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 e = ['BA', 'SP', 'MG', 'RJ']
 
 def menor(*args):
-    return (min(len(lista) for lista in args))
+    return (min(len(lista) for lista in args)) 
 
 print(menor(c, e))
