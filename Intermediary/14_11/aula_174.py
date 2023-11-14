@@ -24,5 +24,6 @@ camisetas = [
 # #permutações permitem repetição
 # print_iter(permutations(pessoas,2))
 
+#equivalenta a SQL
 #produto cartesiano combina todos com todos
 print_iter(product(*camisetas))
