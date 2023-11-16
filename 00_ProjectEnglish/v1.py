@@ -23,7 +23,7 @@ for dicionario in dicionarios:
 
         # Verificar se a entrada do usuário está correta
         if entrada_usuario == valor.lower():
-            print("Correto! Próxima palavra.\n")
+            print(f"Correto! Próxima palavra.\n")
         else:
             print(f"Incorreto. A resposta correta é: {valor}\n")
 
