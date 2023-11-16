@@ -6,7 +6,7 @@ def fat(n):
     elif(n == 0):
         return 1
  
-n = int(input('entre com o numero: '))
+n = int(input(f'entre com o numero: '))
 
 print(fat(n))
 
