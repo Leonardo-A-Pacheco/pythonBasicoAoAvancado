@@ -19,13 +19,16 @@
 # json.dump = Gera um arquivo json
 # json.load
 
-caminho_arquivo = 'D:\\• DEV •\\pythonBasicoAoAvancado\\04_Intermediary\\VirtualAmbient\\'
-caminho_arquivo += 'aula186.txt'
+# caminho_arquivo = r'D:\\• DEV •\\pythonBasicoAoAvancado\\04_Intermediary\\VirtualAmbient\\'
+# caminho_arquivo += 'aula186.txt'
 
+c_a = 'teste.txt'
 # arquivo = open(caminho_arquivo, 'w') 
 # #
 # arquivo.close()
 
-with open(caminho_arquivo, 'w') as arquivo:
-    print('ola')
-    print('o seu arquivo vai ser fechado')
+# with open(caminho_arquivo, 'w') as arquivo:
+#    ...
+
+with open(c_a, 'w') as arquivo:
+    ...
