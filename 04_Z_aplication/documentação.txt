@@ -1,0 +1,29 @@
+#criando e ativando um ambiente virtual
+aplicação no terminal:
+
+python3 -m venv sys_padaria
+.\sys_padaria\Scripts\Activate
+
+utlizando o powershell
+
+
+# criado o ambiente virtual e ativado vou colocar o maximo de todas as ferramentas aprendidas no curso utilizando a pasta 04_Z_aplication como servidor
+
+# Esse desenvolvimento acontece no momento da seção 4 intermediario da aula 192 do curso do prof Miranda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
