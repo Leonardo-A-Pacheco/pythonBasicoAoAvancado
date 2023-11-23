@@ -225,7 +225,7 @@
 
 s = 'Data Science Academy'
 
-print(s[2])
-
-dict3 = {}
-
+for letra in s:
+    print(letra)
+    print(s)
+    
