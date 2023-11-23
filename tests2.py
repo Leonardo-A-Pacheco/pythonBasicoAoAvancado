@@ -221,11 +221,5 @@
 
 # # print(perguntas['resposta'][0])
 
-
-
 s = 'Data Science Academy'
-
-print(s[2])
-
-dict3 = {}
 
