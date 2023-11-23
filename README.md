@@ -1,4 +1,4 @@
 ## pythonBasicoAoAvancado
 
-# Curso desenvolvido pelo material do professor Otávio Miranda via Udemy
+# Curso desenvolvido a partir do material do professor Otávio Miranda via Udemy
 
