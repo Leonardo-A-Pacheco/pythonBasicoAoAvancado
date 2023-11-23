@@ -221,11 +221,3 @@
 
 # # print(perguntas['resposta'][0])
 
-<<<<<<< HEAD
-s = 'Data Science Academy'
-
-=======
-
-
-v = 0
->>>>>>> 8a061c2ad4c0674117a39b438438a073e2740e44
