@@ -1,6 +1,5 @@
 # metodos em instancias de classes
-
-#hard coded é um atributo fixo ja na classe
+# hard coded é um atributo fixo ja na classe
 
 class carro:
     def __init__(self, nome='não declarou'):
@@ -15,7 +14,6 @@ class carro:
     
     def abastecer(self):
         print(f'{self.nome} está abastecendo...\n')
-
 
 
 del_rey = carro('Do Rei')
