@@ -223,9 +223,4 @@
 
 
 
-s = 'Data Science Academy'
-
-for letra in s:
-    print(letra)
-    print(s)
-    
+v = 0
