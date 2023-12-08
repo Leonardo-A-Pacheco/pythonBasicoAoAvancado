@@ -13,7 +13,7 @@ class Conection:
     def set_user(self, user):
         self.user = user
   
-    def set_password(self, user):
+    def set_password(self, password):
         self.password = password
 
     @classmethod
@@ -33,12 +33,13 @@ c1 = Conection.create_with_auth('leonardo', '1234qwer')
 print(c1.user)
 
 c1.set_user('Leonardo')
+c1.set_password('blablabla11347')
 
 print(c1.user)
 print(c1.password)
 
 
-print(Conection.soma(2,5))
+print(f'\n função de classe estatica{Conection.soma(2,5)}')
 
 
 
