@@ -7,3 +7,40 @@
 # um atributo que referencia outro objeto.
 # A associação não especifica como um objeto controla
 # o ciclo de vida de outro objeto.
+
+class Escritor:
+    def __init__(self, nome) -> None:
+        self.nome = nome
+        self._ferramenta = None
+
+    @property
+    def ferramenta(self):
+        return self._ferramenta
+
+    @ferramenta.setter
+    def ferramenta(self, ferramenta):
+        self._ferramenta = ferramenta
+
+    def escrever(self):
+        return f'{self.nome} está escrevendo'
+    
+class FerramentaDeEscrever:
+    def __init__(self, nome):
+        self.nome = nome
+
+    def escrever(self):
+        return f'{self.nome} está escrevendo'
+
+
+escritor = Escritor('leonardo')     
+caneta = FerramentaDeEscrever('caneta BIC')
+computador = FerramentaDeEscrever('computador')
+escritor.ferramenta = computador
+
+print(escritor.ferramenta.escrever())
+escritor.ferramenta = caneta
+print(escritor.ferramenta.escrever())
+
+# onde ferramenta é utilisada só pela classe escritor
+
+print(caneta.escrever())
