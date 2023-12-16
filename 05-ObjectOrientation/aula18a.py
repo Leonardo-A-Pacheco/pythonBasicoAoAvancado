@@ -52,7 +52,7 @@ fuque.fabricante = 'banana'
 
 print(fuque)
  
- 
+ cvb
 # cria-se uma instancia para cada classe interna,
 
 fusca = Carro('Fusca')
