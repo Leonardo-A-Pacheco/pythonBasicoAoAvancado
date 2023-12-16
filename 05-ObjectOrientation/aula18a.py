@@ -51,7 +51,8 @@ fuque.motor = 'v8'
 fuque.fabricante = 'banana'
 
 print(fuque)
-
+ 
+ 
 # cria-se uma instancia para cada classe interna,
 
 fusca = Carro('Fusca')
