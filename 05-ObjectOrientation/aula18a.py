@@ -55,13 +55,9 @@ print(fuque)
 # cria-se uma instancia para cada classe interna,
 
 fusca = Carro('Fusca')
-volkswagen = Fabricante('Volkswagen')
-motor_1_0 = Motor('1.0')
+volkswagen = fabricante('Volkswagen')
+motor_1_0 = motor('1.0')
 fusca.fabricante = volkswagen
 fusca.motor = motor_1_0
 print(fusca.nome, fusca.fabricante.nome, fusca.motor.nome)
 
-
-
-
-b
