@@ -17,6 +17,8 @@
 #        B     C
 #         \   /
 #           D#
+
+#
 # Python 3 usa C3 superclass linearization
 # para gerar o mro.
 # Você não precisa estudar isso (é complexo)
