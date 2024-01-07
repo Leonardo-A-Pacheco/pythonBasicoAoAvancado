@@ -1,43 +1,11 @@
-# abstração
-# print('oi')
+from eletronico import Smartphone
 
-from log import LogPrintMixin, LogFileMixin
+iphone = Smartphone('iphone')
+galaxy = Smartphone('galaxy_s')
 
-lp = LogPrintMixin()
-lp.log_error('DEU MERDA') 
-lp.log_sucess('DEU OURO') 
-lf = LogFileMixin()
-lf.log_error('DEU MERDA') 
-lf.log_sucess('DEU OURO') 
+# galaxy.ligar()
+# iphone.desligar()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+galaxy.desligar()
+iphone.ligar()
 
