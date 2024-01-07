@@ -1,0 +1,7 @@
+Sucess: DEU OURO (LogFileMixin)
+error: DEU MERDA (LogFileMixin)
+Sucess: DEU OURO (LogFileMixin)
+error: DEU MERDA (LogFileMixin)
+Sucess: DEU OURO (LogFileMixin)
+error: DEU MERDA (LogFileMixin)
+Sucess: DEU OURO (LogFileMixin)
