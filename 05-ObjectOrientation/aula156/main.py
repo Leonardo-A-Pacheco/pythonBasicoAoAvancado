@@ -9,7 +9,6 @@ import documentando_funcoes
 # print(uma_linha.__doc__)
 # print(uma_linha.__name__)
 
-
 # help(uma_linha)
 # help(varias_linhas)
 help(documentando_funcoes)
