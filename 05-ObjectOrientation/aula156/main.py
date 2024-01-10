@@ -1,4 +1,5 @@
 import uma_linha
+import varias_linhas
 
 # print(dir(uma_linha))
 # print()
@@ -7,4 +8,6 @@ import uma_linha
 # print(uma_linha.__doc__)
 # print(uma_linha.__name__)
 
-help(uma_linha)
+
+# help(uma_linha)
+help(varias_linhas)
