@@ -1,19 +1,14 @@
 class Livro():
-    def __init__(self):
-        self.titulo = 'titulo do livro'
-        self.isbn = 123134345
+    def __init__(self, titulo, isbn):
+        self.titulo = titulo
+        self.isbn = isbn
         # print('construtor chamado para criar o objeto dessa classe')
 
     def Imprime(self):
         print(f'livro: {self.titulo} ISBN:{self.isbn}')
 
 
-l = Livro()
-
-print(type(l))
-print(l.titulo)
-print(l.isbn)
-
-l.Imprime()
+l2 = Livro('bananas de pijamas', 124123)
 
 
+l2.Imprime()
