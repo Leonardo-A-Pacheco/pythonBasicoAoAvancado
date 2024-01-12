@@ -49,13 +49,20 @@ class ContaCorrente(Conta):
 
         if valor_pos_saque >= limite_maximo:
             self.saldo -= valor
-            self.detalhes(f'(SAQUE {valor})')
+            self.detalhes(f'(SAQUE NEGADO {valor})')
             return self.saldo
         
         print('Não foi possivel sacar o valor desejado')
         print(f'Seu limite é {-self.limite:.2f}')
         self.detalhes(f'(SAQUE DE {valor} NEGADO)')
         return self.saldo
+    
+    def __repr__(self):
+        class_name = type(self).__name__
+        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo!r}'\
+            f'{self.limite!r})'
+        return f'{class_name}{attrs}'
+
 
 if __name__=='__main__':
     cp1 = ContaPoupanca(111, 222)
