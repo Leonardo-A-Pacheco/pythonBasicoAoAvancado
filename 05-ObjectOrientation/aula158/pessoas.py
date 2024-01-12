@@ -47,18 +47,3 @@ if __name__=='__main__':
     print(c2)
     print(c2.conta)
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
