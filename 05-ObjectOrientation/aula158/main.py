@@ -1,3 +1,0 @@
-import contas
-
-print('oi')
