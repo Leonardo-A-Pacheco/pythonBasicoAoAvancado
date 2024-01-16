@@ -6,8 +6,3 @@ import calendar
 print(calendar.monthrange(2024,1))
 
 print(list(enumerate(calendar.day_name)))
-
-
-
-
-
