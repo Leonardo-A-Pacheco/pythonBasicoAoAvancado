@@ -2,7 +2,7 @@
 # import random
 
 # certas = []
-
+#
 # def estado(erros):
 #     if erros == 0:
 #         print('           _________')
