@@ -18,5 +18,6 @@ with MyOpen('aula149.txt', 'a') as arquivo:
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n')
     arquivo.write('Linha 3\n')
+    
     arquivo.write('\n')
     print('WITH', arquivo)
