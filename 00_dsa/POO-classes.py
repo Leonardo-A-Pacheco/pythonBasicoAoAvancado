@@ -7,7 +7,6 @@ class Livro():
     def Imprime(self):
         print(f'livro: {self.titulo} ISBN:{self.isbn}')
 
-
 l = Livro()
 
 print(type(l))
