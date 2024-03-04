@@ -27,4 +27,5 @@ for dicionario in dicionarios:
         else:
             print(f"Incorreto. A resposta correta é: {valor}\n")
 
+
 print("Fim do jogo.")
