@@ -4,7 +4,6 @@ class Livro():
         self.isbn = 123134345
         # print('construtor chamado para criar o objeto dessa classe')
     
-
     def Imprime(self):
         print(f'livro: {self.titulo} ISBN:{self.isbn}')
 
